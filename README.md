@@ -1,6 +1,6 @@
 # JustJDM
 This page documents the development journey of this project from initial concept to implementation and refinement.
-For the the final report, please visit my portfolio at https://ritvikawasthi.me.
+For the the final report, please visit my portfolio at [RitvikAwasthi.me/JustJDM](https://peat-tractor-cad.notion.site/JustJDM-Premium-Parts-Exporter-1b488ddb978a811e94cef6ca62c08c63)
 
 ## About JustJDM
 This project was completed to support a real, Japan-based exporter of JDM automotive parts, referred to here as **JustJDM** for confidentiality. I cleaned and structured previously messy operational data and built an executive dashboard for ongoing internal use. Using insights from the dashboard, I analyzed growth quality, unit economics, and pricing dynamics to help the business better understand scalability, margin resilience, and areas for execution-led improvement.
