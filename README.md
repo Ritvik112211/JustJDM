@@ -111,13 +111,15 @@ As users move downward and toward the left, the information becomes progressivel
 
 The overall design philosophy centers on reducing cognitive load and enabling fast, confident decision-making ensuring even users with limited automotive knowledge can quickly understand what they’re looking at and why it matters.
 
-<img width="1267" height="715" alt="image" src="https://github.com/user-attachments/assets/c6b26e12-3600-42f2-aaf4-304ba47b0fa2" />
+<img width="632" height="357" alt="image" src="https://github.com/user-attachments/assets/7644f6d8-76ff-4d4a-87ed-d9cf716d1a56" />
 
 ### Displaying Product Images Dynamically
 Since I didn’t have local copies of the product images, I hosted them online using [*imgbb.com](http://imgbb.com)* After uploading each image, I copied the direct link and stored it in a new column called `image_URL` in my product description table. Once imported into Power BI, I set the column’s **Data Category** to *Image URL* so the dashboard could display the actual images instead of plain text links. This not only made the visuals more engaging but also kept the report lightweight and quick to load.
 
 ### Adding Instant KPI Insights using DAX
 I structured the dashboard to provide a complete performance view by combining scale, momentum, and unit economics metrics. Total Revenue and Total Profit measure business size, while YoY Revenue and YoY Profit reveal growth trends and performance acceleration or slowdown. To understand underlying drivers, I incorporated Realized Price %, Average Order Value (AOV), and SKU Margin Spread to evaluate pricing discipline, customer purchasing behavior, and product-level profitability dispersion. Together, these KPIs move beyond descriptive reporting and enable diagnostic analysis of whether growth is volume-driven, pricing-led, or mix-dependent, aligning the dashboard with financial operations and transformation best practices.
+
+***Formulas for KPIs :***
 
 Total Revenue
 ```DAX
